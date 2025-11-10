@@ -1,0 +1,38 @@
+/gamemode survival
+/penis
+/time set night
+/gamemode survival
+/summon minecraft:skeleton
+/summon donkey ~ ~ ~ {Tame:1b,Owner:[I;-1302985747,1289307570,-1765376933,-699757299]}
+/summon minecraft:donkey
+/gamemode creative
+/weather clear
+/gamemode survival
+/give @p elytra
+/gamemode creative
+/gamemode survival
+/give @p minecraft:spider_spawn_egg 53
+/summon minecraft:spider
+/give @p obsidian 10
+/give @p minecraft:flint_and_steel
+/give @p minecraft:diamond_sword
+/give @p minecraft:black_shulker_box
+/give @p minecraft:dark_oak_chest_boat
+/gamemode creative
+/give @p minecraft:dark_oak_chest_boat
+/gamemode creative
+/kill
+/gamemode creative
+/gamemode survival
+/give @p minecraft:elytra
+/tp @p ~ ~60 ~
+/give @p spawner[
+/give @p spawner
+/gamemode creative
+/gamemode survival
+/give @p minecraft:totem_of_undying
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @p minecraft:shulker_box

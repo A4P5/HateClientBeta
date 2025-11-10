@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.hatesvartt.hateclient.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MapIdMixin",
+    "VelocityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

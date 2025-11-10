@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "hateclient",
+  "version": "${version}",
+  "name": "HateClient",
+  "description": "Multifunction hacked client",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": ["me.hatesvartt.hateclient.client.HateclientDataGenerator"],
+    "client": ["me.hatesvartt.hateclient.client.HateclientClient"]
+  },
+  "mixins": [
+    "hateclient.mixins.json",
+    {
+      "config": "hateclient.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
